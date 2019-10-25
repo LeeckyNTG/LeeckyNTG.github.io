@@ -5,13 +5,16 @@
   
 
   
-  <title>Clover、Blog</title>
+  <title>数据库设计 | Clover、Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Clover、Blog">
-<meta property="og:url" content="https:&#x2F;&#x2F;leeckyntg.github.io&#x2F;index.html">
+  <meta name="description" content="1. 优良设计：减少数据冗余，避免数据维护异常，节约存储空间，高效访问。2. 存在大量冗余数据；存在数据插入，更新，删除异常；浪费大量的存储空间；访问数据低效。3. 数据库设计步骤： 需求分析： 确定实体； 实体所包含的属性 实体的特性，哪些属性可以组合或作为唯一标识。   逻辑设计: 通过ER图：矩形表示实体集，菱形表示联系集，椭圆表示实体属性，线段将属性与实体连接起来。主键用下划线标识。 第一">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据库设计">
+<meta property="og:url" content="https:&#x2F;&#x2F;leeckyntg.github.io&#x2F;2019&#x2F;10&#x2F;25&#x2F;%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1&#x2F;index.html">
 <meta property="og:site_name" content="Clover、Blog">
+<meta property="og:description" content="1. 优良设计：减少数据冗余，避免数据维护异常，节约存储空间，高效访问。2. 存在大量冗余数据；存在数据插入，更新，删除异常；浪费大量的存储空间；访问数据低效。3. 数据库设计步骤： 需求分析： 确定实体； 实体所包含的属性 实体的特性，哪些属性可以组合或作为唯一标识。   逻辑设计: 通过ER图：矩形表示实体集，菱形表示联系集，椭圆表示实体属性，线段将属性与实体连接起来。主键用下划线标识。 第一">
 <meta property="og:locale" content="zh-CH">
+<meta property="og:updated_time" content="2019-10-25T02:33:38.771Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="https://github.com/LeeckyNTG" title="Clover、Blog" type="application/atom+xml">
@@ -63,56 +66,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Spring" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/10/25/Spring/" class="article-date">
-  <time datetime="2019-10-25T05:44:49.753Z" itemprop="datePublished">2019-10-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/25/Spring/">Spring</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="一-IoC控制反转"><a href="#一-IoC控制反转" class="headerlink" title="一. IoC控制反转"></a>一. IoC控制反转</h1><ul>
-<li>控制反转IoC: 控制权的转移，应用程序本身不负责依赖对象的创建和维护，而是有外部容器负责创建和维护。</li>
-<li>依赖注入DI: 是一种实现方式，创建对象并且组装对象自检的关系。<h1 id="二-Bean容器"><a href="#二-Bean容器" class="headerlink" title="二. Bean容器"></a>二. Bean容器</h1></li>
-<li>org.springframework.beans:bean容器的管理jar</li>
-<li>org.springframework.context:上下文jar</li>
-<li>BeanFactory提供配置结构和基本功能，加载并初始化Bean。</li>
-<li>ApplicationContext保存了Bean对象并在Spring中被广泛应用。<h1 id="Spring注入"><a href="#Spring注入" class="headerlink" title="Spring注入"></a>Spring注入</h1></li>
-<li>Spring注入是指在启动Spring容器加载bean配置的时候，完成对变量的赋值行为。</li>
-<li>常用的两种注入方式：①设值注入(property)。②构造注入（consstructor-arg）。</li>
-<li></li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://leeckyntg.github.io/2019/10/25/Spring/" data-id="ck25po1oq0000dcva8amvfxpb" class="article-share-link">分享</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-数据库设计" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-数据库设计" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/10/25/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/" class="article-date">
   <time datetime="2019-10-25T05:44:49.139Z" itemprop="datePublished">2019-10-25</time>
@@ -125,8 +79,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/25/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/">数据库设计</a>
+    <h1 class="article-title" itemprop="name">
+      数据库设计
     </h1>
   
 
@@ -162,11 +116,23 @@
     </footer>
   </div>
   
-</article>
-
+    
+<nav id="article-nav">
+  
+    <a href="/2019/10/25/Spring/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <div class="article-nav-title">
+        
+          Spring
+        
+      </div>
+    </a>
+  
+  
+</nav>
 
   
-
+</article>
 
 </section>
         

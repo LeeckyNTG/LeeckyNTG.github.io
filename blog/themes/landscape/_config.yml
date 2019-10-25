@@ -1,8 +1,10 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
-rss: /atom.xml
+  主页: /
+  归档: /archives
+  Github: https://github.com/LeeckyNTG
+  关于我: /aboutus
+rss: https://github.com/LeeckyNTG
 
 # Content
 excerpt_link: Read More
@@ -25,13 +27,15 @@ index_widgets:
 
 # widget behavior
 archive_type: 'monthly'
-show_count: false
+show_count: true
 
 # Miscellaneous
 google_analytics:
 gauges_analytics:
-favicon: /favicon.png
+favicon: /favicon.jpg
 twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+background: https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1009427248,1478422786&fm=26&gp=0.jpg # 既是博客的背景，又是文章默认头图
